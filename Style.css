@@ -10,7 +10,7 @@
 }
 #top
 {
-    border: 1px solid black;
+    border: 1px solid lightgrey;
     column-span: 3;
 }
 #bottom
@@ -20,7 +20,7 @@
 }
 #side
 {
-    border: 1px solid black;
+    border: 1px solid lightgrey;
 }
 #code
 {
@@ -29,11 +29,11 @@
 }
 #sidebar
 {
-    border: 1px solid black;
+    border: 1px solid lightgrey;
 }
 #scode
 {
-    border: 1px solid black;
+    border: 1px solid lightgrey;
 }
 #output
 {
@@ -42,11 +42,11 @@
 }
 #sidebar1
 {
-    border: 1px solid black;
+    border: 1px solid lightgrey;
 }
 #opt
 {
-    border: 1px solid black;
+    border: 1px solid lightgrey;
 }
 h1
 {
