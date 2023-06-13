@@ -1,2 +1,2 @@
-n = int (input ("Enter number: "))
-print(n)
+for i in range(10):
+    print("Hello world!", i)

@@ -14,7 +14,7 @@ async function runCode()
 
     let output = await getOutput(data)
     console.log(output);
-    document.querySelector("#opt").textContent = output;
+    document.querySelector("#opt>pre").textContent = output;
 }
 
 async function getOutput(body)
