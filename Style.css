@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#main
+{
+    display: grid;
+    grid-template-rows: 110% 1000%;
+}
+#top
+{
+    border: 1px solid black;
+    column-span: 3;
+}
+#bottom
+{
+    display: grid;
+    grid-template-columns: 10% 45% 45%;
+}
+#side
+{
+    border: 1px solid black;
+}
+#code
+{
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+#sidebar
+{
+    border: 1px solid black;
+}
+#scode
+{
+    border: 1px solid black;
+}
+#output
+{
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+#sidebar1
+{
+    border: 1px solid black;
+}
+#opt
+{
+    border: 1px solid black;
+}
+h1
+{
+    text-align: center;
+    margin-top: 10px;
+}
