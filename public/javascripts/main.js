@@ -13,14 +13,22 @@ async function runCode()
     console.log(data);
 
     let output = await getOutput(data)
-
+    console.log(output);
     document.querySelector("#opt").textContent = output;
 }
 
 async function getOutput(body)
 {
-    return fetch("/api",{ body ,method: "POST"})
-        .then(data=>{return data.json()})
+    return fetch("/api",
+    { 
+        method: "POST",
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(body)
+    }
+    )
+        .then(data=>{return data.text()})
         // .then(res => {document.getElementById("opt").textContent = res })
         .catch(error=>console.log(error))
 }
